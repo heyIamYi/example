@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+body{font-family:Arial,"微軟正黑體";font-size:12px;line-height:20px;color:#242424;background: url("/images/back-img/loginbg.jpg") no-repeat center top;padding: 0;margin: 0;}
+.clearfloat{ clear:both;}
+
+.box{margin:0px auto;height: 100%;width: 486px; top: 0; left: 50%; margin-left: -243px; background: url("/images/back-img/logincontentbg.png") repeat;padding: 30px;position: absolute;box-sizing: border-box;}
+.boxin{
+    position: absolute;
+    width: 344px;
+    left: 50%;
+    margin-left: -172px;
+    top: 50%;
+    margin-top: -151px;
+}
+
+.txt { text-align: center;color:#ff5200;font-size:13px; height:39px; margin: 15px 0 -15px 0;display: block;}
+
+#mianbox{width: 272px;margin: 0 auto;}
+.iconfwebadmintitle{color: #ffffff;font-size: 48px;text-align: center;/*margin-bottom: 39px;*/line-height: 1;font-family: "微軟正黑體",'Raleway', sans-serif;font-weight: 200;}
+.contentbox{width: 100%;}
+.inputset{border-bottom: 1px solid #999;margin-bottom: 10px;margin-top: 15px;padding-bottom: 5px;font-family: "微軟正黑體";}
+.titlebox{background: url("/images/back-img/login_icon1.png") left center no-repeat;padding-left: 26px;height:20px;line-height:20px;/* margin-top:10px; */float: left;}
+.titlebox2{background: url("/images/back-img/login_icon2.png") left center no-repeat;height: 25px;}
+.titlebox3{background: url("/images/back-img/login_icon3.png") left center no-repeat;}
+.inputbox{float: left;}
+.inputbox input{display:block;width:191px;height:21px;margin:0px;border:none;padding:0px 5px;font-weight:bold;color: #ffffff;background: none;font-family: "微軟正黑體", Arial;}
+.inputbox02 { float: left;}
+.inputbox02 input{display:block;width:112px;height:21px;margin:0px;border:none;padding:0px 5px;font-weight:bold;color: #ffffff;float:left;background: none;font-family: "微軟正黑體",Arial;}
+.inputbox02 div{margin-left:6px;float:left;vertical-align: middle;}
+.inputbox03 input{display:block;width: 100%;margin:0px;border:none;/* background:url(../images/btn_11.png) no-repeat; */margin-top:10px;background-color: #3bca93;color: #ffffff;font-size: 18px;border-radius: 3px;padding: 7px;font-weight: 400;font-family: 'Raleway', sans-serif;}
+/*.inputbox04 input{ display:block; width:69px; height:25px; margin:0px; border:none; background:url(../images/btn_13.png) no-repeat; padding:0px; margin-top:10px; float:left; margin-left:10px;}*/
+.clear{clear: both;}
+#reload-img img{
+    cursor: pointer;
+    display: block;
+    margin-top: 5px;
+}
+.iconffooter{
+    color: #a5a5a5;
+    font-family: 'Raleway', sans-serif, '微軟正黑體';
+    text-align: center;
+    margin-top: 20px;
+}

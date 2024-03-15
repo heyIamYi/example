@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "language":"繁體中文",
+        "code":"zh-TW"
+    },
+    {
+        "id":2,
+        "language":"英文",
+        "code":"en"
+    },
+    {
+        "id":3,
+        "language":"簡體中文",
+        "code":"zh-CN"
+    }
+]

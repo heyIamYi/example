@@ -1,0 +1,10 @@
+<?php
+
+namespace App\Services;
+
+use App\Services\System\BaseService;
+
+class {{name}} extends BaseService
+{
+    // 以下開始寫程式碼
+}

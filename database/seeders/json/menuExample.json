@@ -1,0 +1,90 @@
+[
+    {
+        "name": "首頁管理",
+        "hide_sub": 1,
+        "slist": "1",
+        "sadd": null,
+        "sedit": null,
+        "sdelete": null,
+        "child": [
+            {
+                "name": "首頁輪播",
+                "hide_sub": 1,
+                "alias": "index_slider"
+            }
+        ]
+    },
+    {
+        "name": "聯絡我們管理",
+        "hide_sub": 1,
+        "slist": "0",
+        "sadd": "0",
+        "sedit": "0",
+        "sdelete": "0",
+        "child": [
+            {
+                "name": "聯絡我們",
+                "hide_sub": 1,
+                "alias": "contact"
+            },
+            {
+                "name": "聯絡資訊",
+                "hide_sub": 1,
+                "alias": "contact_mail"
+            }
+        ]
+    },
+    {
+        "name": "系統管理",
+        "hide_sub": 1,
+        "slist": "1",
+        "sadd": null,
+        "sedit": null,
+        "sdelete": null,
+        "child": [
+            {
+                "name": "群組管理",
+                "hide_sub": 1,
+                "slist": 1,
+                "sadd": 1,
+                "sdelete": 1,
+                "sedit": 1,
+                "alias": "admin_group"
+            },
+            {
+                "name": "帳號管理",
+                "hide_sub": 1,
+                "slist": 1,
+                "sadd": 1,
+                "sdelete": 1,
+                "sedit": 1,
+                "alias": "admin"
+            },
+            {
+                "name": "權限管理",
+                "hide_sub": 1,
+                "slist": 1,
+                "sadd": 1,
+                "sdelete": 1,
+                "sedit": 1,
+                "alias": "admin_group_permission"
+            },
+            {
+                "name": "參數設定",
+                "hide_sub": 1,
+                "slist": null,
+                "sadd": 0,
+                "sdelete": 0,
+                "alias": "setting"
+            },
+            {
+                "name": "關鍵字管理",
+                "hide_sub": 1,
+                "alias": "meta",
+                "slist": 1,
+                "sadd": 0,
+                "sdelete": 0
+            }
+        ]
+    }
+]

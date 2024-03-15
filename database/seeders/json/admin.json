@@ -1,0 +1,9 @@
+[
+    {
+        "name":"admin",
+        "email":"admin@gmail",
+        "password":"admin",
+        "username":"admin",
+        "group_id":"1"
+    }
+]

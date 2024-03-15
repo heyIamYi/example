@@ -1,0 +1,28 @@
+<?php
+
+namespace App\Http\Controllers\Front;
+
+use Illuminate\Http\Request;
+use App\Http\Controllers\System\BackStageController;
+
+class {{ModelName}}Controller extends BackStageController
+{
+    protected $repo;
+
+    public function __construct(Repository $repo)
+    {
+        parent::__construct();
+        $this->repo = $repo;
+    }
+
+    public function index()
+    {
+        return view('');
+    }
+
+    public function show($id)
+    {
+        $data = $this->repo->find($id);
+        return view('', compact('data'));
+    }
+}

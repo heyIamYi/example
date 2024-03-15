@@ -1,0 +1,571 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  display: block;
+  width: 100%;
+  background: none;
+}
+
+body {
+  font-family: Arial, "微軟正黑體", "新細明體";
+  font-size: 12px;
+  line-height: 20px;
+  background: none;
+  min-width: 900px;
+}
+
+nav .logobox {
+  height: 60px;
+  background: none;
+  border-bottom: 1px solid #979797;
+  position: relative;
+  -webkit-box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.5);
+}
+nav .logobox .conpanyname {
+  float: left;
+  font-size: 22px;
+  color: #006699;
+  margin-top: 21px;
+  margin-left: 24px;
+}
+nav .logobox .conpanyname p {
+  float: left;
+  font-size: 22px;
+  color: #006699;
+}
+nav .logobox .conpanyname .admintext {
+  font-size: 20px;
+  color: #333333;
+  display: inline;
+}
+nav .logobox span {
+  float: right;
+  margin-right: 35px;
+}
+nav .logobox span input {
+  color: #333;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+nav .logobox span .topbut01 {
+  width: 69px;
+  height: 31px;
+  background: url(/images/back-img/header/mantop_05.jpg) no-repeat;
+  margin-right: 20px;
+  border: none;
+  margin-top: 16px;
+  cursor: pointer;
+}
+nav .logobox span .topbut01:hover {
+  width: 69px;
+  height: 31px;
+  background: url(/images/back-img/header/mantop_05_hover.jpg) no-repeat;
+}
+nav .logobox span .topbut02 {
+  width: 111px;
+  height: 31px;
+  background: url(/images/back-img/header/mantop_07.jpg) no-repeat;
+  border: 0px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+nav .logobox span .topbut02:hover {
+  width: 111px;
+  height: 31px;
+  background: url(/images/back-img/header/mantop_07_hover.jpg) no-repeat;
+}
+
+main .centerbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  height: 100%;
+}
+main .centerbox #left {
+  min-width: 234px;
+  max-width: 234px;
+  font-family: Arial, "微軟正黑體", "新細明體";
+  font-size: 13px;
+  line-height: 20px;
+  background: #011f35;
+}
+main .centerbox #left .leftbox {
+  overflow-y: auto;
+  margin-top: 50px;
+  width: 190px;
+  min-height: 500px;
+  margin-left: 10px;
+  background: none;
+  margin-bottom: 30px;
+}
+main .centerbox #left .leftbox .object_list {
+  margin-left: 10px;
+}
+main .centerbox #left .leftbox .object_list li.list_object div.list_parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 10px;
+}
+main .centerbox #left .leftbox .object_list li.list_object div.list_parent a {
+  color: #ffffff;
+  font-size: 15px;
+  text-decoration: none;
+}
+main .centerbox #left .leftbox .object_list li.list_object div.list_parent a:hover {
+  color: #f1de27;
+  cursor: pointer;
+}
+main .centerbox #left .leftbox .object_list li.list_object div.list_parent img {
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+}
+main .centerbox #left .leftbox .object_list li.list_object div.list_parent img:hover {
+  cursor: pointer;
+}
+main .centerbox #left .leftbox .object_list li.list_object ul li {
+  padding-bottom: 10px;
+}
+main .centerbox #left .leftbox .object_list li.list_object ul li:last-child {
+  margin-bottom: 10px;
+}
+main .centerbox #left .leftbox .object_list li.list_object ul li img {
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+}
+main .centerbox #left .leftbox .object_list li.list_object ul li img:hover {
+  cursor: pointer;
+}
+main .centerbox #left .leftbox .object_list li.list_object ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+main .centerbox #left .leftbox .object_list li.list_object ul li a:hover {
+  color: #f1de27;
+  cursor: pointer;
+}
+main .centerbox #left .leftbox .logout-botton {
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .centerbox #left .leftbox .logout-botton img {
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+}
+main .centerbox #left .leftbox .logout-botton button {
+  color: #ffffff;
+  font-size: 15px;
+  background-color: transparent;
+  border: transparent;
+}
+main .centerbox #left .leftbox .logout-botton button:hover {
+  color: #f1de27;
+  text-decoration: none;
+  cursor: pointer;
+}
+main .centerbox #left .leftbox ul {
+  list-style-type: none;
+}
+main .centerbox #right {
+  width: 100%;
+  background-color: white;
+}
+main .centerbox #right .rightbox {
+  width: 100%;
+}
+main .centerbox #right .rightbox .welcome-page {
+  width: 100%;
+  min-height: 500px;
+}
+main .centerbox #right .rightbox .welcome-page img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: -6px;
+}
+main .centerbox #right .rightbox .form-page {
+  margin: 40px 20px 0px;
+}
+main .centerbox #right .rightbox .form-page .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+main .centerbox #right .rightbox .form-page .title h1 {
+  width: 100%;
+  font-size: 20px;
+  font-family: Arial, "微軟正黑體", Helvetica, sans-serif, "黑体";
+  background: url(/images/back-img/wan_14.png) left center no-repeat;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 10px;
+  padding-left: 26px;
+  color: #c4c4c4;
+  border-bottom: dotted 1px #c3c3c3;
+  font-weight: bold;
+}
+main .centerbox #right .rightbox .form-page div.title {
+  padding-left: 0px;
+}
+main .centerbox #right .rightbox .form-page .title.ps-2 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .centerbox #right .rightbox .form-page .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #f4f4f4;
+  text-indent: 10px;
+  font-size: 14px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  margin-left: 0px !important;
+}
+main .centerbox #right .rightbox .form-page .search a.add-button {
+  text-indent: 0px;
+  width: 108px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  color: #ffffff;
+  background-color: #006394;
+  border-radius: 3px;
+  font-size: 15px;
+  text-decoration: none;
+}
+main .centerbox #right .rightbox .form-page .search a.add-button:hover {
+  color: #f1de27;
+  text-decoration: none;
+}
+main .centerbox #right .rightbox .form-page .search .search-bar input[type=text] {
+  padding: 0 3px;
+}
+main .centerbox #right .rightbox .form-page .search .search-bar input[type=text],
+main .centerbox #right .rightbox .form-page .search .search-bar input[type=password],
+main .centerbox #right .rightbox .form-page .search .search-bar select,
+main .centerbox #right .rightbox .form-page .search .search-bar .textstyle {
+  border: 1px solid #cdcdcd;
+  color: #333;
+  height: 26px;
+}
+main .centerbox #right .rightbox .form-page .search .search-bar input,
+main .centerbox #right .rightbox .form-page .search .search-bar textarea {
+  border: 1px solid #cdcdcd;
+  color: #333;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+main .centerbox #right .rightbox .form-page .search .search-bar select {
+  border: 1px solid #cdcdcd;
+  color: #333;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 150px;
+}
+main .centerbox #right .rightbox .form-page .search .search-bar button {
+  width: 45px;
+  height: 24px;
+  background-color: #4ebda8;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+main .centerbox #right .rightbox .form-page .result-list {
+  padding: 10px 0px 0 0px;
+}
+main .centerbox #right .rightbox .form-page .result-list table {
+  margin-bottom: 0;
+  border-top: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+main .centerbox #right .rightbox .form-page .result-list table thead tr th {
+  text-align: left;
+  text-indent: 10px;
+  font-size: 12.5px;
+  background: #666666;
+  color: white;
+  line-height: 25px;
+  height: 38px;
+  font-weight: normal;
+}
+main .centerbox #right .rightbox .form-page .result-list table tbody tr td {
+  border-bottom: 1px solid #ffffff;
+  padding: 10px 0;
+  background: #f5f5f5;
+  text-align: left;
+  text-indent: 10px;
+}
+main .centerbox #right .rightbox .form-page .result-list table tbody tr td input[type=number][name=sort]::-webkit-outer-spin-button, main .centerbox #right .rightbox .form-page .result-list table tbody tr td input[type=number][name=sort]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+          appearance: none;
+  margin: 0;
+}
+main .centerbox #right .rightbox .form-page .result-list table tbody tr td input[type=number][name=sort] {
+  -moz-appearance: textfield;
+}
+main .centerbox #right .rightbox .form-page .result-list table tbody tr td.sort input[type=text] {
+  width: 35px;
+}
+main .centerbox #right .rightbox .form-page .result-list table tbody tr td.operate a {
+  color: #339eff;
+  text-decoration: none;
+  text-align: center;
+}
+
+#right .rightbox .form-page .edit-list table {
+  width: 100%;
+  border-spacing: 0px;
+}
+#right .rightbox .form-page .edit-list table thead {
+  margin-bottom: 5px;
+}
+#right .rightbox .form-page .edit-list table thead tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#right .rightbox .form-page .edit-list table thead tr th {
+  font-size: 12.5px;
+  background: #666666;
+  color: white;
+  line-height: 25px;
+  height: 38px;
+  font-weight: normal;
+  padding-left: 8px;
+}
+#right .rightbox .form-page .edit-list table thead tr th:last-child {
+  width: 100%;
+}
+#right .rightbox .form-page .edit-list table thead tr th .title {
+  text-align: left;
+  text-indent: 10px;
+}
+#right .rightbox .form-page .edit-list table tbody tr:hover td {
+  background: #eaf3e2;
+}
+#right .rightbox .form-page .edit-list table tbody tr td {
+  border-bottom: 1px solid #ffffff;
+  padding: 10px 8px;
+  background: #f5f5f5;
+}
+#right .rightbox .form-page .edit-list table tbody tr td textarea {
+  padding-top: 5px;
+  padding-left: 5px;
+  border: 1px solid #cdcdcd;
+  color: #333;
+  height: 100%;
+}
+#right .rightbox .form-page .edit-list table tbody tr td input[type=text],
+#right .rightbox .form-page .edit-list table tbody tr td input[type=email]
+{
+  padding-left: 5px;
+  border: 1px solid #cdcdcd;
+  color: #333;
+  height: 26px;
+}
+#right .rightbox .form-page .edit-list table tbody tr td ul.inputosaurus-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#right .rightbox .form-page .edit-list table tbody tr td ul.inputosaurus-container li {
+  margin: 0px;
+  margin-right: 3px;
+  padding: 0px;
+}
+#right .rightbox .form-page .edit-list table tbody tr td ul.inputosaurus-container li span {
+  margin: 3px;
+}
+#right .rightbox .form-page .edit-list table tbody tr td ul.inputosaurus-container li.inputosaurus-input input.ui-autocomplete-input[type=text] {
+  padding-left: 5px;
+  border: none !important;
+  color: #333;
+  height: 26px;
+}
+#right .rightbox .form-page .edit-list table tbody tr td input[type=submit] {
+  background: #4ebda8;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 20px;
+}
+#right .rightbox .form-page .edit-list table tbody tr td input[type=submit]:hover {
+  cursor: pointer;
+}
+#right .rightbox .form-page .edit-list table tbody tr td.operate a {
+  text-decoration: none;
+}
+#right .rightbox .form-page .edit-list table tbody tr td.is-show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+#right .rightbox .form-page .edit-list table tbody tr td.is-show label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin-right: 10px;
+}
+#right .rightbox .form-page .edit-list table tbody tr.last-tr td {
+  background: #f4f8f5;
+}
+#right .rightbox .form-page .edit-list table tbody tr.last-tr:hover td {
+  background: #eaf3e2;
+}
+
+footer {
+  text-align: right;
+  -webkit-box-shadow: 1px -3px 11px -5px rgba(0, 0, 0, 0.35);
+          box-shadow: 1px -3px 11px -5px rgba(0, 0, 0, 0.35);
+  color: #b9b9b9;
+  position: absolute;
+  right: 0px;
+  width: 100%;
+}
+footer a {
+  color: #b9b9b9;
+  text-decoration: none;
+}
+
+.admin-style .news-viewpage {
+  margin-top: 20px;
+  padding-bottom: 70px;
+  height: 36px;
+  padding-right: 30px;
+}
+.admin-style .news-viewpage .page-right {
+  float: right;
+  /* background: url(../images/wan_47.jpg) no-repeat; */
+  height: 32px;
+  width: 16px;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0px 3px 3px 0px;
+}
+.admin-style .news-viewpage .page-content {
+  float: right;
+  /* background: url(../images/wan_45.jpg) repeat-x; */
+  height: 32px;
+  font-size: 13px;
+  line-height: 32px;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+.admin-style .news-viewpage .page-content select {
+  margin-left: 8px;
+  border: none;
+  background: #eeeeee;
+  color: black;
+  min-width: 35px;
+}
+.admin-style .news-viewpage .page-content select option {
+  font-weight: normal;
+  display: block;
+  white-space-collapse: collapse;
+  text-wrap: nowrap;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+}
+.admin-style .news-viewpage .page-left {
+  float: right;
+  /* background: url(../images/wan_43.jpg) no-repeat; */
+  height: 32px;
+  width: 16px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 3px 0 0px 3px;
+}
+.admin-style .news-viewpage em {
+  background: #0075a9;
+  display: inline-block;
+  padding: 0px 8px;
+  text-align: center;
+  color: #fff;
+}
+.admin-style .news-viewpage em .BtnNumSelect {
+  padding: 0 12px;
+}
+.admin-style .news-viewpage a {
+  display: inline;
+  padding: 0px 8px;
+  text-align: center;
+  color: #000000;
+  border-left: 1px solid #ccc;
+  display: inline-block;
+  text-decoration: none;
+}
+.admin-style strong {
+  font-weight: bold;
+}
+
+table.setting td {
+  padding-left: 10px 0px;
+}
+table.setting td textarea {
+  margin: 10px 0px;
+  margin-left: 10px;
+  padding: 5px;
+}
+table.setting td button {
+  background: #4ebda8;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  width: 70px;
+  height: 33px;
+}
+
+table.permission-table {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+}
+table.permission-table tbody tr td {
+  padding: 0;
+  border-bottom: 0px !important;
+}
